@@ -3,8 +3,9 @@ machine:
   php:
     version: 5.5.8
 
-
-## Customize test commands
-test:
-  override:
-    - phpunit test/unit-tests # use PHPunit for testing
+## Setup development deployment
+deployment:
+  development:
+    branch: develop 
+    heroku:
+      appname: adsub
