@@ -3,6 +3,12 @@ machine:
   php:
     version: 5.5.8
 
+
+## Setup build directory
+general:
+  build_dir: build
+
+
 ## Setup development deployment
 deployment:
   development:
